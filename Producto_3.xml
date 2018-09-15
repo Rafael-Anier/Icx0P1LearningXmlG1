@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Producto_3.xsl"?>
+<contenido>
+
+<nivel1>
+<titulo>Lenguajes ​ ​de ​ ​marcas</titulo>
+<nivel2 >
+<titulo>¿Qué ​ ​son ​ ​los ​ ​lenguajes ​ ​de ​ ​marcas?</titulo>
+<autor>Afikri</autor>
+<texto>
+Los lenguajes de marcas son metodos de codificacion de documentos en los cuales se añaden marcas o etiquetas que indican como esta formateado el texto.
+</texto>
+<texto>
+Un ejemplo usado en el lenguaje es incluir las marcas <p> </p> para identificar un párrafo o la marca <b> texto </b> para poner el texto incluido entre las marcas en negrita.
+</texto>
+<texto>
+Los lenguajes de marcas se diferencian principalmente de los lenguajes de programación en que estos últimos usan, entre otras características funciones, procedimientos y variables.
+</texto>
+</nivel2>
+
+
+<nivel2 >
+<titulo>Ejemplos ​ ​de ​ ​lenguajes ​ ​de ​ ​marcas</titulo>
+<autor>Rafa</autor>
+<texto>
+El origen de los lenguajes de marcas es SGML, creado por IBM en los 60, no es estrictamente un lenguaje de marcas, sino un metalenguaje a partir del cual se pueden generar otros lenguajes, por ejemplo HTML es un lenguaje creado a partir de SGML.
+</texto>
+<texto>
+Algunos formatos de lenguajes de marca usados para documentación electrónica.
+</texto>
+<lista>
+<elementoListaN1>
+TeX, Lenguaje ampliamente usado en la comunidad académica, principalmente a través del sistema de composición LaTeX
+</elementoListaN1>
+<elementoListaN1>
+RTF. Este formato, con un formato parecido al TeX es el primer formato usado por el procesador Microsoft Word.
+</elementoListaN1>
+<elementoListaN1>
+YAML, Lenguaje orientado a que sea fácilmente leído por humanos en su versión codificada.
+</elementoListaN1>
+<elementoListaN1>
+Wikitexto, Lenguaje de marcado orientado a su uso en páginas wiki.
+</elementoListaN1>
+<elementoListaN1>
+DocBook. Lenguaje ampliamente usado en la documentación técnica. Se basa en un XML con un DTD determinado para el cual hay múltiples herramientas de conversión. Actualmente se usa ampliamente, entre otros, en la documentación de sistemas Linux y la herramienta man de Linux.
+</elementoListaN1>
+</lista>
+<texto>
+Algunos formatos de lenguajes de marcas usados en Internet:
+</texto>
+<lista>
+<elementoListaN1>
+HTML, Formato usado en páginas web en sus distintas versiones, en el momento de la escritura de este documento se encuentra en la versión HTML5
+</elementoListaN1>
+<elementoListaN1>
+XHTML. Una versión de html con la gramática de XML que al final derivó en el actual HTML5.
+</elementoListaN1>
+<elementoListaN1>
+WML. Extensión de xml para su uso en terminales móviles.
+</elementoListaN1>
+<elementoListaN1>
+Xforms Formato de XML para su uso en formularios web.
+</elementoListaN1>
+<elementoListaN1>
+RSS y Atom. Formatos de XML para su uso en gestores de noticias.
+</elementoListaN1>
+</lista>
+
+<texto>
+Algunos formatos de propósito específico:
+</texto>
+
+<lista>
+<elementoListaN1>
+MathML, matemáticas.
+</elementoListaN1>
+<elementoListaN1>
+SSML o VoiceXML, síntesis de voz.
+</elementoListaN1>
+<elementoListaN1>
+MusicXML ,música.
+</elementoListaN1>
+<elementoListaN1>
+SVG, gráficos.
+</elementoListaN1>
+<elementoListaN1>
+XSLT, transformación de documentos.
+</elementoListaN1>
+<elementoListaN1>
+GML, información geográfica.
+</elementoListaN1>
+</lista>
+
+</nivel2>
+
+</nivel1>
+
+<nivel1>
+<titulo>eXtensible ​ ​Markup ​ ​language ​ ​(XML)</titulo>
+<nivel2 >
+<titulo>Definición ​ ​de ​ ​XML</titulo>
+<autor>Amir</autor>
+<texto>
+XML proviene de eXtensible Markup Language, en español Lenguaje de Marcado Extensible o Lenguaje de Marcas Extensible. Se trata de un metalenguaje (un lenguaje que se utiliza para decir algo de otro) extensible de etiquetas que fue desarrollado por el World Wide Web Consortium (W3C) que no es otra que la sociedad mercantil internacional que se encarga de elaborar las recomendaciones para la World Wide Web. 
+</texto>
+<texto>
+El XML es una adaptaciones del SGML o Standard Generalized Markup Language, que es un lenguaje que permite la organización y el etiquetado de documentos. Por lo que el XML no es un lenguaje en sí mismo, sino un sistema que permite definir lenguajes de acuerdo a las necesidades que se tenga. Algunos ejemplos más de uso específico que el XML es capaz de definir:
+</texto>
+
+<lista>
+<elementoListaN1>
+Multimedia:
+<elementoListaN2>
+SMIL
+</elementoListaN2>
+
+</elementoListaN1>
+<elementoListaN1>
+Voz
+<elementoListaN2>
+SSML
+</elementoListaN2>
+<elementoListaN2>
+VoiceXML
+</elementoListaN2>
+<elementoListaN2>
+SRGS
+</elementoListaN2>
+<elementoListaN2>
+CCXML
+</elementoListaN2>
+
+</elementoListaN1>
+<elementoListaN1>
+Imágenes
+<elementoListaN2>
+SVG
+</elementoListaN2>
+<elementoListaN2>
+VML
+</elementoListaN2>
+
+</elementoListaN1>
+<elementoListaN1>
+Formularios
+<elementoListaN2>
+xForms
+</elementoListaN2>
+
+</elementoListaN1>
+<elementoListaN1>
+Telefonía Móvil
+<elementoListaN2>
+WML
+</elementoListaN2>
+</elementoListaN1>
+<elementoListaN1>
+Matemáticas
+<elementoListaN2>
+MathML
+</elementoListaN2>
+</elementoListaN1>
+</lista>
+<texto>
+Las bases de datos, los documentos de texto, las hojas de cálculo y las páginas web son algunos de los campos de aplicación XML. El metalenguaje aparece como un estándar que estructura el intercambio de información entre las diferentes plataformas.
+</texto>
+<texto>
+Los expertos señalan varias ventajas que derivan de la utilización del XML, com por ejemplo:
+</texto>
+
+<lista>
+<elementoListaN1>
+Es extensible: se pueden añadir nuevas etiquetas tras el diseño del documento.
+</elementoListaN1>
+<elementoListaN1>
+Su analizador es estándar: no requiere cambios para cada versión.
+</elementoListaN1>
+<elementoListaN1>
+Fácil análisis:  facilita el análisis y el procesamiento de los documentos XML creados por terceros.
+</elementoListaN1>
+
+</lista>
+<texto>
+Entre los lenguajes creados con XML, destacan el XSL (Extensible Stylesheet Language) y el Xlink.
+</texto>
+
+</nivel2>
+<nivel2 >
+<titulo>Utilidades ​ ​de ​ ​XML</titulo>
+<autor>Afriki</autor>
+<texto>
+	Como todas las herramientas, su utilidad depende de la creatividad de quien la utiliza, por ende, resulta imposible resumir todas las utilidades y aplicaciones de XML. Como resumen, se podría decir que ofrece la posibilidad de estructurar y representar datos.
+</texto>
+<texto>
+	En la actualidad, es muy común que programas incluyan archivos de configuración en este formato, como es el caso de Apache y de las aplicaciones creadas con la tecnología .NET de Microsoft.
+</texto>
+<texto>
+	Otro ejemplo de aplicación de programas con interfaz gráfica, el XML es muy útil para poder organizar todas las imágenes de manera que se vayan cargando a medida que se necesiten. El XML permite agruparlas, etiquetarlas, especificar su ubicación y relacionarlas con otros datos, según las necesidades de los diseñadores.
+</texto>
+<texto>
+	Además de facilitar la organización de los recursos y la configuración de programas, el XML cumple un papel muy importante que es, sin duda, su punto fuerte y es que permite comunicarse con otras aplicaciones, de diferentes plataformas y sin importar el origen de la información.
+</texto>
+<texto>
+	Los servicios web, son componentes de la red que brindan la posibilidad de realizar una serie variada de operaciones, a través de métodos concretos que aprovechan el metalenguaje XML para sus comunicaciones, gracias a lo cual cualquier plataforma puede hacer uso de sus ventajas.
+</texto>
+</nivel2>
+
+<nivel2 >
+<titulo>Estructura ​ ​de ​ ​documentos ​ ​XML</titulo>
+<autor></autor>
+<nivel3 >
+<titulo>¿Que ​ ​es ​ ​DTD?</titulo>
+<autor>Rafa</autor>
+<texto>
+DTD (Document Type Definition) es una definición de tipo de documento, es una descripción de la estructura de un documento XML.
+</texto>
+<lista>
+<elementoListaN1>
+Elementos obligatorios.
+</elementoListaN1>
+<elementoListaN1>
+Elementos opcionales.
+</elementoListaN1>
+<elementoListaN1>
+Orden de elementos.
+</elementoListaN1>
+<elementoListaN1>
+Atributos de los elementos.
+</elementoListaN1>
+</lista>
+<texto>
+Se utiliza para validar un documento XML
+</texto>
+<texto>
+Es anterior a XML.
+</texto>
+<texto>
+En la actualidad ha sido reemplazado por la tecnología XSD
+</texto>
+
+
+</nivel3>
+<nivel3 >
+<titulo>Ejemplos ​ ​de ​ ​gramáticas ​ ​DTD</titulo>
+<autor>Amir</autor>
+<texto>
+En el siguiente ejemplo podemos ver una gramática simple DTD.
+</texto>
+<texto>
+En ella se define un documento de tipo documentación en la cual se pueden definir título, autor y resumen y en la cual titulo es es necesaria.
+</texto>
+<codigo>
+<![CDATA[
+<!DOCTYPE DOCUMENTACION [
+<!ELEMENT TITULO (#PCDATA)>
+<!ELEMENT AUTOR (#PCDATA)>
+<!ELEMENT RESUMEN (#PCDATA)>
+<!ATTLIST TITULO NAME CDATA #REQUIRED>
+]
+]]>
+</codigo>
+</nivel3>
+<nivel3 >
+<titulo>Principales ​ ​elementos ​ ​de ​ ​una ​ ​gramática ​ ​DTD</titulo>
+<autor>Afriki</autor>
+<texto>
+	Los principales elementos de una gramática DTD son los siguientes:
+</texto>
+
+
+</nivel3>
+</nivel2>
+
+
+<nivel2 >
+<titulo>Validación ​ ​documentos ​ ​XML</titulo>
+<autor></autor>
+<nivel3 >
+<titulo>Herramientas ​ ​de ​ ​validación ​ ​de ​ ​documentos ​ ​XML.</titulo>
+<autor>Rafa</autor>
+</nivel3>
+</nivel2>
+
+<nivel2 >
+<titulo>Transformación ​ ​de ​ ​estructuras ​ ​XML</titulo>
+<autor></autor>
+<nivel3 >
+<titulo>¿Que ​ ​es ​ ​el ​ ​lenguaje ​ ​de ​ ​transformación ​ ​XSLT?</titulo>
+<autor>Amir</autor>
+</nivel3>
+<nivel3 >
+<titulo>Ejemplos ​ ​de ​ ​transformaciones ​ ​XSLT</titulo>
+<autor>Afriki</autor>
+</nivel3>
+<nivel3 >
+<titulo>Principales ​ ​instrucciones ​ ​XSLT.</titulo>
+<autor>Rafa</autor>
+</nivel3>
+<nivel3 >
+<titulo>Herramientas ​ ​de ​ ​transformación ​ ​con ​ ​XSLT</titulo>
+<autor>Amir</autor>
+</nivel3>
+</nivel2>
+
+<nivel2 >
+<titulo>Ejemplos ​ ​de ​ ​lenguajes ​ ​basados ​ ​en ​ ​XML</titulo>
+<autor></autor>
+<nivel3 >
+<titulo>xHTML:</titulo>
+<autor></autor>
+<nivel4 >
+<titulo>¿Que ​ ​és ​ ​xHTML?</titulo>
+<autor>Afriki</autor>
+</nivel4>
+<nivel4 >
+<titulo>Utilidades</titulo>
+<autor>Rafa</autor>
+</nivel4>
+</nivel3>
+<nivel3 >
+<titulo>RSS ​ ​/ ​ ​Atom:</titulo>
+<autor></autor>
+<nivel4 >
+<titulo>¿Qué ​ ​es ​ ​RSS ​ ​o ​ ​Atom?</titulo>
+<autor>Amir</autor>
+<texto>
+esto es un texto
+
+<![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/">
+        <html>
+            <head>
+                <title>Ejemplo XSLT</title>
+            </head>
+            <body>
+                <xsl:apply-templates select=”nombre” />
+            </body>
+        </html>
+    </xsl:template>
+    <xsl:template match=”//nombre”>
+        <h2>
+            <xsl:value-of select=”.” />
+        </h2>
+    </xsl:template>
+</xsl:stylesheet>
+]]>
+
+
+</texto>
+</nivel4>
+<nivel4 >
+<titulo>Utilidades</titulo>
+<autor>Afriki</autor>
+</nivel4>
+</nivel3>
+<nivel3 >
+<titulo>Otros ​ ​lenguajes ​ ​basados ​ ​en ​ ​XML</titulo>
+<autor>Rafa</autor>
+</nivel3>
+</nivel2>
+
+</nivel1>
+
+</contenido>
